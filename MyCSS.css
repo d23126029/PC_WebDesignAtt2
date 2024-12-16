@@ -527,8 +527,7 @@ footer.footer {
 	background-size : cover;
 	background-position : center;
 	color : yellow;
-	} /* PROBLEM TO FIX: IF I REMOVE THIS BRACKET IT WILL FIX THE DISPLAY THE MOBILE DISPLAT OF THE CONTACT PAGE BUT ON THE CAREERS PAGE CAROSOUL THE
-	TEXT BECOMES MESSED UP (Fixed/ text is now ok but images look like they are being cut off) */ 
+	} 
 
 /* Style for the Display of the Contact Page with the enquiry form */
 .contact h2 { 
@@ -592,13 +591,12 @@ footer.footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    margin: 20px 0;
 }
 
 .frame iframe {
-    width: 80%; 
-    height: 450px; /* Set height  */
-    max-width: 1200px; /* Set width  */
-    border: none; 
-} 
+    width: 580px;
+    height: 370px;
+    border: none;
+}
 
